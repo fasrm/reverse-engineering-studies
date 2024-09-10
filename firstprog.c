@@ -4,6 +4,7 @@ ls -l a .out
 ./a.out
 
 objdump -D a.out | grep -A20 main.:
+objdump -M intel -D a.out | grep -A20 main.:
 */
 
 #include <stdio.h>
