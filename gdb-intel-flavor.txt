@@ -1,0 +1,10 @@
+You can configure this setting to run every time GDB starts up by
+putting the command in the file .gdbinit in your home directory
+
+gdb -q
+(gdb) set dis intel
+(gdb) quit
+echo "set dis intel" > ~/.gdbinit
+cat ~/.gdbinit
+set dis intel
+ 
